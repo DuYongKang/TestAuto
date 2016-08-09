@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         ExpandableTextView expTv = (ExpandableTextView) findViewById(R.id.expand_text_view);
         //expTv.setText("hello world");
         expTv.setText("谷歌对各版本的系统安装量进行了追踪，去年12月，Android 4.4 KitKat系统的份额从33.9（百分之）升至39.1（百分之），而Android 5.0甚至没有出现在榜单上。\n" +
